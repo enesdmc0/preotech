@@ -23,7 +23,8 @@ export default function Home() {
     İletişim: "iletisim",
   };
 
-  const modalData = {
+  
+  const modalData: any = {
     hakkimizda:
       " Bünyesinde Makina, Havacılık ve Tasarım mühendisleri ile savunma sanayisi özel ihtiyaçlarına yönelik çözümler sağlamak amacıyla kurulan PreoTech hızlı ve müşteri odaklı çözümleri ile savunma ve otomotiv sektörüne yönelik hizmet vermektedir.",
     kabiliyetlerimiz:
@@ -111,7 +112,7 @@ export default function Home() {
                     <p>{modalData[activeModal].mail}</p>
                   </div>
                 ) : (
-                  modalData[activeModal] 
+                  modalData[activeModal]
                 )}
               </p>
               <button
